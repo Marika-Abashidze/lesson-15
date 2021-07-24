@@ -1,0 +1,210 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.div-block .block, .section-bg .container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section-bg {
+  background-color: black;
+}
+.section-bg .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section-bg .container .btn-class {
+  background-color: white;
+  border-radius: 35px;
+  border: none;
+  font-size: 14px;
+  font-family: "Zen Tokyo Zoo", cursive;
+}
+.section-bg .container .burger {
+  color: white;
+}
+@media (max-width: 950px) {
+  .section-bg .container .burger {
+    display: none;
+  }
+}
+.section-bg .container .title-h1 {
+  font-size: 50px;
+  color: white;
+  font-family: "Zen Tokyo Zoo", cursive;
+  -webkit-transition: all 5s linear 0.2s;
+  transition: all 5s linear 0.2s;
+}
+.section-bg .container .title-h1::after {
+  content: "";
+  width: 430px;
+  height: 2px;
+  background-color: white;
+  display: block;
+  margin: 20px 0;
+}
+.section-bg .container .title-h1:hover {
+  color: red;
+}
+@media (max-width: 950px) {
+  .section-bg .container .title-h1 {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 500px) {
+  .section-bg .container .title-h1 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 950px) {
+  .section-bg .form {
+    display: none;
+  }
+}
+.section-bg .image {
+  max-width: 200px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.section-bg .image:hover {
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
+}
+@media (max-width: 950px) {
+  .section-bg .image {
+    display: none;
+  }
+}
+
+.div-block {
+  margin-top: 100px;
+}
+.div-block .title-h2 {
+  font-family: "Zen Tokyo Zoo", cursive;
+  margin-left: 80px;
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+@media (max-width: 400px) {
+  .div-block .title-h2 {
+    margin: 0 auto;
+  }
+}
+.div-block .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media (max-width: 768px) {
+  .div-block .block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.div-block .block .box-img-2 {
+  margin: 30px 0;
+}
+.div-block .box {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 50px;
+  max-width: 600px;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .div-block .box {
+    max-width: 300px;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) and (max-width: 400px) {
+  .div-block .box {
+    margin: 0 auto;
+  }
+}
+.div-block .box .box-p {
+  font-size: 18px;
+}
+.div-block .box .header-btn {
+  margin-top: 30px;
+  background-color: blue;
+  max-width: 150px;
+  width: 100%;
+  border-radius: 35px;
+  border: none;
+  font-size: 22px;
+  font-family: "Zen Tokyo Zoo", cursive;
+  color: white;
+}
+.div-block .box .title-h3 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  font-family: "EB Garamond", serif;
+  color: red;
+}/*# sourceMappingURL=global.css.map */

@@ -1,0 +1,21 @@
+@mixin flex($display,$justify,$align-items){
+    display: $display;
+    justify-content: $justify;
+    align-items: $align-items;
+}
+
+
+@mixin transition($property,$duration,$type,$delay){
+    transition:$property $duration $type $delay;
+}
+
+@mixin margin-top20(){
+    margin-top:20px;
+}
+@mixin margin-bottom20(){
+    margin-bottom:20px;
+}
+@mixin width($max,$width){
+    max-width: $max;
+    width: $width;
+}
